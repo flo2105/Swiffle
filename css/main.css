@@ -1,0 +1,81 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    height: 100vh;
+    font-family: 'brandon_grotesquebold';
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    color: white;
+    font-family: 'brandon_grotesquebold';
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+    overflow: hidden;
+}
+
+p {
+    font-size: 45pt;
+}
+
+#swiffle {
+    margin-left: 37px;
+}
+#icon {
+    margin-top: 8px;
+}
+#osx {
+    animation-name: start;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    font-size: 20px;
+    text-decoration: none;
+    background: #dd6158;
+    border: 2px solid #dd6158;
+    padding: 4px 23px;
+    font-weight: 400;
+    border-radius: 400px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+@keyframes start {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+#osx:hover {
+        background: rgba(255, 255, 255, 0)
+    }
+
+#swiffle {
+    margin-left: 37px;
+}
+#icon {
+    margin-top: 8px;
+}
+#hl {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@keyframes start {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+#osx:hover {
+        background: rgba(255, 255, 255, 0)
+    }
+#screen1 {
+    width: 420px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+a {
+    color: #ffffff;
+}
