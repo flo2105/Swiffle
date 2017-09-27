@@ -9,3 +9,5 @@ if (content.match('Mac')) {
 } else if (content.match('Linux')) {
     document.getElementById("download").innerHTML = '<p> <a href="installers/Swiffle_latest.zip" id="osx" download="Swiffle_latest.zip">Download for Linux</a></p>';
 }
+
+document.getElementById("download").innerHTML = '<p> <a href="installers/Swiffle_latest.zip" id="osx" download="Swiffle_latest.zip">Download for OSX</a></p>';
