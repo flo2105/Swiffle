@@ -10,10 +10,7 @@ body {
     color: white;
     font-family: 'brandon_grotesquebold';
     line-height: 1.5;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 2em 2em 4em;
-    overflow: hidden;
+    margin: 0;
 }
 
 p {
@@ -48,15 +45,11 @@ p {
         background: rgba(255, 255, 255, 0)
     }
 
-#swiffle {
-    margin-left: 37px;
-}
-#icon {
-    margin-top: 8px;
-}
 #hl {
     font-size: 30px;
     font-weight: 700;
+    overflow: hidden;
+    height: 100vh
 }
 
 @keyframes start {
@@ -67,12 +60,10 @@ p {
         background: rgba(255, 255, 255, 0)
     }
 #screen1 {
-    width: 420px;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
-    overflow: hidden;
 }
 
 
