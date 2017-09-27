@@ -1,4 +1,4 @@
-
+//teest
 
 content = navigator.platform;
 console.log(content);
